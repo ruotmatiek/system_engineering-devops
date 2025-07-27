@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type d | wc -l
+ls -l | grep -v '^total' | cut -c1-10
