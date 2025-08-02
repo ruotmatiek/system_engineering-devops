@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep -v '^total' | cut -c1-10
+chmod -R a+X .
