@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
-# Display the PID of this script
-echo "$$"
+# Displays the shell PID
+
+echo $$
+
+
 
