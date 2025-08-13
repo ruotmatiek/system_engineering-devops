@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Display all PIDs of currently running processes
-ps -eo pid
+# Displays a list of currently running processes
+
+ps -faux
 
